@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+         <title>Corynne's HCDE 439 Physical Computing Page!</title>
+
+         <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+     </head>
+     <body>
+
+         <div class="header">
+             <h1>Molding and Casting!</h1>
+             <p>
+             <img src="pics/poohMold/rhinoPooh.png" width=400>
+             </p>
+             <p>
+               For this project we had to fabricate a mold in silicone then create 4 identical parts.
+               I decided to make a Winnie the Pooh head and drew it in Rhino.
+               I had some problems trying to make an organic 3D shape but I used the same technique as
+               <a href="https://www.youtube.com/watch?v=iwqPI0kN7u4">this tutorial to make potatoes</a>.
+               The basic concept was to loft 3 open curves in order to make my shape for the headand other parts.
+               Here are some other commands I used: revolve,
+               insertcontrolpoint (add a point to curve),
+               editpton (to edit curve points).
+             </p>
+             <img src="pics/poohMold/fusion360.png" width=400>
+             <img src="pics/poohMold/stockSettings.png" width=400>
+             <p>
+               Next I exported to stl file and opened that file in fusion360.
+               Per the tutorial from class I placed it at the origin in
+               model mode then switched to manufacture mode to change the setup settings.
+               Above is a picture of my model and the stock settings that I used for the path.
+               I tried to do adaptive clearing and it was taking super duper long. I even left it overnight to and it still wasn't finished.
+               I was kind of panicking but after more inspection I realized my scale was 10x larger than I wanted it to be.
+               I'm not really sure why because I was working in mm in both Rhino and fusion360.
+               After changing the scale adaptive clearing gave me a nice tool path.
+             </p>
+             <img src="pics/poohMold/milledWax.jpg" width=400>
+             <p>
+               To make my molds I decided to mill wax and went to fluke when Nadya was running the shopbot for people.
+               I was lucky enough to be first in line and got my pooh mold done twice.
+               I learned that you need to have more that 1/8" between the part and the box when milling your shape.
+               If you don't do this the mill will either collide or won't be able to cut all the way down.
+               The second time she used a smaller tool stepover to see if the details would come out better.
+               In the picture above the bottom is the larger stepover and the top is a little smoother with a smaller stepover.
+               For the final project I would like to try 3D printing to see if the details come out better.
+             </p>
+             <img src="pics/poohMold/filledMold.jpg" width=400>
+             <img src="pics/poohMold/moldResults.jpg" width=400>
+             <p>
+               I bought food-safe silicone Smooth-Sil 940 which is a 10 to 1 ratio for part A to B.
+               The curing time was 24 hours, but I left it a couple days just to be sure.
+               I had some trouble prying it out of the wax but found success with a butter knife.
+               Silicone is not as fragile as I thought it was.
+               For post curing it said to leave it in the oven at 212 degrees fahrenheit for 4 hours.
+             </p>
+             <img src="pics/poohMold/moldCloseUp.jpg" width=400>
+             <p>
+               Here is a close up of the molds to show the difference between the different stepover settings.
+             </p>
+             <img src="pics/poohMold/iceCubes.jpg" width=400>
+             <p>
+               I originally wanted to make chocolate, but I am moving and didn't want to buy extra things so I decided to make ice cubes.
+               Ice cubes are kind of boring, but I will update this after I try chocolate or jello.
+             </p>
+             <img src="pics/poohMold/fourIceCubes.jpg" width=400>
+             <p>
+               Here are the final 4 ice cubes. I am hoping that chocolate will allow the details to show more.
+             </p>
+
+             <p>
+               <a href="">Source Files</a>
+             </p>
+         </div>
+
+     </body>
+ </html>
